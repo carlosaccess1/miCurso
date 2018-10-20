@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+		<meta charset="utf-8">
+		<title>HOJA DE VIDA</title>
+	</head>
+	<body>
+	<form>	
+		<div id="titulo" class="titulo">
+			<h1  >HV CARLOS AUGUSTO GONZALEZ JARAMILLO</h1>
+		</div>	
+				
+	<div id="datospersonales" >	
+		
+		<h3>Ingeniero de Sistemas</h3>
+		<div class="informacion"> 
+			<img src="carlos.jpg" class="foto">
+			<h2>INFORMACIÓN PERSONAL</h2> 
+			 <table>
+	          <tbody>
+	          <tr> <th> Nombre:</th> <th> CARLOS AUGUSTO GONZALEZ JARAMILLO</th></tr> 
+              <tr> <th> Documento de Identidad: </th> <th> 79.211.055</th></tr> 
+              <tr> <th> Fecha de Nacimiento</th> <th> 20 de dicicembre de 1973</th></tr> 
+              <tr> <th> Dirección:</th> <th> Carera 70g no 63 52 sur</th></tr> 
+              <tr> <th> Estado Civil:</th> <th> Soltero</th></tr> 
+              <tr> <th> Teléfono:</th> <th> 3138770266</th></tr> 
+              <tr> <th> E-mail:</th> <th> carlosaccess1@gmail.com</th></tr> 
+	          </tbody>
+            </table>	      
+        </div>
+    </div>      
+  <div class="contenedor">
+    <div id="estudios">
+        <h2>INFORMACION ACADEMICA</h2>
+	    <ul>
+	    	<li> Estudios Universitarios, Corporación Tecnológica Industrial Colombiana</li>
+	    	<li> Estudios Secundarios, Colegio Fransicos de Paula Santander </li>
+	    	<li>Estudios Primarios, Colegio Mi Esperanza, (1986) Bogotá, D.C</li>
+	    	
+        </ul>
+         <h2>OTROS CURSOS</h2>
+    </div>
+
+	<div id="programas">    
+		<h2>PROGRAMAS Y ACTITUDES</h2>
+	    <ul>
+	    	<li> Java</li>
+	    	<li> SQL Server</li>
+	    	<li> Oracle</li>
+	    	<li> Mysql</li>
+	    	<li> Lenguaje C</li>
+        </ul>
+    </div>
+  </div>  
+  
+  <a href="http://www.elempleo.com" target="_new">empleo.com</a>
+  <button type="button" onclick="asignarestilo()">Asignar estilo</button>
+</form>
+  <script >
+    function asignarestilo()
+	{
+     alert("Se asignará el estilo dinámicamente");
+	 //alert(document.getElementById("datospersonales").getElementsByClassName);
+      document.getElementById("datospersonales").className="personaldatos";
+
+	}
+  
+  
+  </script>
+	</body>
+	</html>	
